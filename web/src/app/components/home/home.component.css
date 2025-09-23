@@ -1,0 +1,9 @@
+.hero-pattern {
+  background-image: radial-gradient(#d5000020 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.company-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
