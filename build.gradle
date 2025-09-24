@@ -9,7 +9,7 @@ plugins {
 	id "io.freefair.lombok" version "6.6.1"
 }
 
-mainClassName = 'com.brcodigo.app.Application'
+mainClassName = 'br.com.dataprev.cartaov.Application'
 
 dependencies {
 	implementation project(":contract")
@@ -23,7 +23,7 @@ allprojects {
 	apply plugin: 'io.spring.dependency-management'
 	apply plugin: "io.freefair.lombok"
 
-	group = "com.brcodigo"
+	group = "br.com.dataprev"
 	version = "0.0.1-SNAPSHOT"
 	sourceCompatibility = '17'
 
