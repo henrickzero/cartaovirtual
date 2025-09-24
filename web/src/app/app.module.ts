@@ -15,6 +15,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component'; 
 import { AuthInterceptor } from './guards/auth-interceptor.interceptor'; 
 import { SindicatoComponent } from './components/sindicato/sindicato.component'; 
+import { VirtualCardComponent } from './components/card/virtual-card.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { SindicatoComponent } from './components/sindicato/sindicato.component';
     HelpModalComponent,
     LoginComponent,
     SignupComponent,
-    SindicatoComponent
+    SindicatoComponent,
+    VirtualCardComponent
   ],
   imports: [
     BrowserModule,
